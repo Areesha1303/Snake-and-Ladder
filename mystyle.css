@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background: url(/requirements/snake.jpg) center center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+/* .board{
+    background: linear-gradient(rgb(137 204 219), rgb(168 236 167));
+    width: 83vmin;
+    height: 92vmin;
+    border: 2px solid black;
+    display: grid;
+    grid-template-rows: repeat(18, 1fr);
+    grid-template-columns: repeat(18, 1fr);
+    margin-right: 400px;
+}
+.head{
+    background-color: red;
+    border: 2px solid rgb(34, 4, 34); 
+    height: 30px;
+    width: 30px;
+}
+.snake{
+    background-color: purple;
+    border: .25vmin solid white;
+    height: 30px;
+    width: 30px;
+}
+.food{
+    background: linear-gradient(red, purple);
+    border: .25vmin solid black;
+    height: 30px;
+    width: 30px;
+} */
+
+/* Example CSS */
+.board {
+    background: linear-gradient(rgb(137 204 219), rgb(168 236 167));
+    width: 83vmin;
+    height: 92vmin;
+    border: 2px solid black;
+    display: grid;
+    grid-template-rows: repeat(20, 1fr);
+    grid-template-columns: repeat(20, 1fr);
+}
+
+.head {
+    background-color: green;
+}
+
+.snake {
+    background-color: lightgreen;
+}
+
+.food {
+    background-color: red;
+}
